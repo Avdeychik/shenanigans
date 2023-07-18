@@ -1,0 +1,33 @@
+.container{
+    height:1000px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_A{
+display:flex;
+    width:100%;
+    background: gray;
+    height: 35%;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_B{
+    display:flex;
+    width: 60%;
+    background: blue;
+    height: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_C{
+    display:flex;
+    width: 40%;
+    background: lightcoral;
+    height:65%;
+    justify-content: center;
+    align-items: center;
+}

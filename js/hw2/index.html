@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+//Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+
+let arr1 = [];
+arr1[0] = 1;
+arr1[1] = -124;
+arr1[2] = true;
+arr1[3] = false;
+arr1[4] = 'hello';
+arr1[5] = 'world';
+arr1[6] = 3.14;
+arr1[7] = -2.7143;
+arr1[8] = 0;
+arr1[9] = '150';
+
+console.log(arr1);
+
+//- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+
+let obj1 = {
+    title: 'Harry Potter',
+    pageCount: 500,
+    genre: 'Fantasy'
+}
+
+let obj2 = {
+    title: 'The Witcher',
+    pageCount: 800,
+    genre: 'Fantasy'
+}
+
+let obj3 = {
+title: 'Sherlock Holmes',
+pageCount: 300,
+genre: 'Detective'
+}
+
+
+//- Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - масив. Кожен автор має поля name,age
+
+let obj4 = {
+title: 'The Red and the Black',
+pageCount: 400,
+genre: 'Novel',
+authors: [
+    {
+        name: 'Stendhal',
+        age: 59
+    }
+]
+}
+
+let obj5 = {
+    title: 'The Roadside Picnic',
+    pageCount: 500,
+    genre: 'Novel',
+    authors: [
+        {
+            name: 'Strugatsky',
+            age: 79
+        }
+    ]
+}
+
+let obj6 = {
+    title: 'Crime and Punishment',
+    pageCount: 600,
+    genre: 'Novel',
+    authors: [
+        {
+            name: 'Dostoevsky',
+            age: 59
+        }
+    ]
+}
+
+// - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+
+let users = [
+    {
+        name: 'Ivan',
+        username: 'vanya123',
+        password: 'vanya1234'
+
+}, 
+{
+    name: 'Vasily',
+    username: 'vasya123',
+    password: 'vasya1234'
+}, 
+{
+    name: 'Bogdan',
+    username: 'bodya123',
+    password: 'bodya1234'
+}, 
+{
+    name: 'Anatoliy',
+    username: 'tolyan123',
+    password: 'tolyan1234'
+},
+{
+    name: 'Viktor',
+    username: 'vitya123',
+    password: 'vitya1234'
+}, 
+{
+    name: 'Snoop Dogg',
+    username: 'snoop123',
+    password: 'snoop1234'
+}, 
+{
+    name: 'Dmitry',
+    username: 'dima123',
+    password: 'dima1234'
+}, 
+{
+    name: 'Anastasiia',
+    username: 'nastya123',
+    password: 'nastya1234'
+}, 
+{
+    name: 'Akim',
+    username: 'akim123',
+    password: 'akim1234'
+},
+{
+    name: 'Oleksandr',
+    username: 'alex123',
+    password: 'alex1234'
+}
+
+]
+
+console.log(users[0].password);
+console.log(users[1].password);
+console.log(users[2].password);
+console.log(users[3].password);
+console.log(users[4].password);
+console.log(users[5].password);
+console.log(users[6].password);
+console.log(users[7].password);
+console.log(users[8].password);
+console.log(users[9].password);
+
+</script>
+
+</body>
+</html>

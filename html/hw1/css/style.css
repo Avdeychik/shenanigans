@@ -1,0 +1,43 @@
+body{
+    width:70%;
+    margin: 0 auto;
+}
+
+p{
+    background: yellow;
+    color:blue;
+}
+
+img{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+ul li{
+    background: black;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:yellow;
+    background:black;
+}
+
+h1{
+    color: gold;
+    background: azure;
+}
+
+div{
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+h1, p, a, h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    
+}

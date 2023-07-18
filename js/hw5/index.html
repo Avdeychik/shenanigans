@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+//- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
+         /*function square (a, b) {
+            let num = a * b;
+            return num;
+         }
+         console.log(square(10, 14)); */
+
+         //- створити функцію яка обчислює та повертає площу кола з радіусом r
+
+         /*let squareCircle = (r) => Math.PI * Math.pow(r, 2);
+         return squareCircle(3);*/
+
+         //- створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+
+         /*const cylinder = (r, h) => Math.PI * Math.pow(r, 2) * h;
+         return cylinder(4, 2);*/
+
+         //- створити функцію яка приймає масив та виводить кожен його елемент
+
+         /*let arr = [1, 2, 3];
+         function foo(array) {
+            for (const item of array) {
+                console.log(item);
+            }
+         }
+         foo(arr); */
+
+
+         //- створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
+         /*function foo(text) {
+            document.write(`<p>${text}</p>`);
+         }
+         foo('Hello'); */
+
+         //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+
+        /* function foo(text) {
+            document.write(`<ul>
+                <li>${text}</li>
+                <li>${text}</li>
+                <li>${text}</li>
+                </ul>`);
+         }
+         foo('hello');*/
+
+         //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
+       /*  function foo(text, num) {
+            document.write(`<ul>`);
+                for (let i = 0; i < num; i++) {
+                    document.write(`<li>${text}</li>`);
+                }
+            document.write(`</ul>`);    
+         }
+         foo('hello', 4); */
+
+         //- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+/*
+         let arr = [12, 23, true, false, 'str'];
+         function foo(array) {
+            document.write(`<ul>`);
+
+                for (const item of array){
+                    document.write(`<li>${item}</li>`);
+                }
+
+
+            document.write(`</ul>`);
+         }
+         foo(arr);
+
+         */
+
+         //- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+
+
+         /*const arr = [
+            {
+                id: 123,
+                name: 'vasya',
+                age: 22},
+            {
+                id: 228,
+                name: 'petya',
+                age: 18
+            },
+            {
+                id: 1337,
+                name: 'volodya',
+                age: 25
+            }
+         ];
+
+         let objArr = function (array) {
+            for (const item of array) {
+                document.write(`<div>${item.id} -- ${item.name} -- ${item.age}</div>`);
+            }
+         }
+         objArr(arr); */
+
+         //- створити функцію яка повертає найменьше число з масиву
+
+
+
+        /* const arr = [1, 2, -4, 0, 100500];
+         const minItem = function (array) {
+            let min = array[0];
+            for (const item of array) {
+                if (item < min) {
+                    min = item;
+                }
+            }
+            return(min);
+         }
+         console.log(minItem(arr)); */
+
+         //- створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+
+         const arr = [1, 145, -12, -8, -3.213];
+
+         function foo(array) {
+            let sum = 0;
+            for (const item of array) {
+                sum += item;
+            }
+            return sum;
+         }
+         let num = foo(arr);
+         console.log(num);
+         
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
