@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/Widget1337" version="1.0.0" viewmodes="fullscreen">
+    <tizen:app-widget id="kvf1SgZwAp.Widget1337.Widget1337" primary="true">
+        <tizen:widget-label>Hello Web Widget!</tizen:widget-label>
+        <tizen:widget-content src="widget/Widget1337/index.html">
+            <tizen:widget-size preview="widget/Widget1337/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="kvf1SgZwAp.Widget1337" package="kvf1SgZwAp" required_version="5.5"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="heart.png"/>
+    <name>Widget1337</name>
+    <tizen:profile name="wearable"/>
+</widget>
